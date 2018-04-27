@@ -1,0 +1,67 @@
+html, body {
+  background: #f6f6f6;
+  font-size: 16px;
+  color: #2f2f2f;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 2% auto;
+  padding: 2%;
+  background: #fff;
+  border: 1px solid #d7d7d7;
+}
+
+.title {
+  width: 70%;
+}
+
+.menu {
+  width: 20%;
+  height: auto;
+  float: right;
+  margin-top: 2.5%;
+  margin-left: 5%;
+  padding: 2%;
+  background: #fff;
+  border: 1px solid #d7d7d7;
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  font-size: 2vh; /* 2% от высоты окна */
+}
+
+.menu ul {
+	padding-left: 0;
+}
+
+.menu ul li {
+	display: block;
+  padding: 2%;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2f2f2f;
+}
+
+.menu ul li a:hover {
+  color: #2f7db5;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.content {
+  width: 70%;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content a {
+  color: #2f2f2f;
+}
