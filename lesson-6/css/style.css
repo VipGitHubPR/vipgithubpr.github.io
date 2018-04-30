@@ -8,8 +8,10 @@ html, body {
 }
 
 .wrapper {
-  max-width: 1280px;
-  min-width: 520px;
+  /* max-width: 1280px;
+  min-width: 520px; */
+  max-width: 1150px;
+  min-width: 550px;
   width: 84%;
   background: #fff;
   margin: 12.5% auto;
